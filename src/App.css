@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+body{
+  background-color: #A4BE7B;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  background-color: #E5D9B6;
+  min-height: 90vh;
+  width: 500px;
+  margin: 20px auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.crossed{
+  text-decoration: line-through 2px green;
+  background-color: #F5EBE0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul,li{
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  color: #285430;
+}
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.add{
+  background: #65aa06;
+  margin-top: 5px;
+}
+.delete{
+  background: #d30100;
+  margin-bottom: 5px;
+}
+.btn {
+  padding: 10px;
+  border: none;
+  width: 70%;
   color: white;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+input{
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Ubuntu', sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+  margin-top:10px ;
+  margin-bottom: 10px;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
 }
